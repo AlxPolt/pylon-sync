@@ -18,11 +18,11 @@ jobs:
 
       - name: Build webhook binary (Linux)
         run: |
-          GOOS=linux GOARCH=amd64 go build -o webhook/webhook ./cmd/webhook/main.go
+          GOOS=linux GOARCH=amd64 go build -o handler ./cmd/webhook/main.go
 
       - name: Create deploy package
         run: |
-          zip -r deploy.zip webhook/ host.json
+          zip -r deploy.zip handler webhook/function.json host.json
 
       - name: Deploy to Azure Function App
         uses: Azure/functions-action@v1
