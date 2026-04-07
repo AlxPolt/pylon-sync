@@ -1,0 +1,8 @@
+token_cache.json
+config.json
+deploy.zip
+pylon-sync
+# Binary in root (compiled output)
+webhook/webhook
+*.exe
+.claude/

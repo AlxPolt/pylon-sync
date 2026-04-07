@@ -1,0 +1,22 @@
+{
+  "pylon": {
+    "api_token": "YOUR_PYLON_API_TOKEN",
+    "base_url": "https://api.getpylon.com/v1",
+    "filter_status": "accepted",
+    "days_lookback": 30
+  },
+  "microsoft": {
+    "client_id": "YOUR_AZURE_CLIENT_ID",
+    "tenant_id": "YOUR_AZURE_TENANT_ID",
+    "client_secret": "",
+    "sharepoint_site": "",
+    "file_path": "Proposals Tracker.xlsx",
+    "sheet_name": "Лист1",
+    "table_name": ""
+  },
+  "columns": [],
+  "sync": {
+    "last_sync": "2026-01-01T00:00:00Z",
+    "added_project_ids": []
+  }
+}
